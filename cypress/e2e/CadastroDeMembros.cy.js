@@ -12,3 +12,5 @@ describe('US-012-funcionalidade: Cadastro de membros', () => {
     cy.get('#signup-response').should('contain' , 'Cadastro realizado com sucesso!')
   })
 })
+
+
